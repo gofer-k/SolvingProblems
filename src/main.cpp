@@ -7,9 +7,10 @@ import non_overlapping_intervals;
 import rotation_cases;
 import prefix_sums;
 import nqueens;
+import dyn_prog_max_sub_array;
 
 int main() {
-    SumSubArray::test_sum_sub_array();
+    ssa::test_sum_sub_array();
     sw::test_search_word();
     gp::test_generate_parenthesis();
     gp::test_valid_parentesis();
@@ -23,5 +24,6 @@ int main() {
     pfs::test_prefix_sum_contiguous_array();
     nq::testSolveNQueens();
     nq::testSolveCrossWords();
+    dyn_prog::test_max_sub_array();
     return 0;
 }

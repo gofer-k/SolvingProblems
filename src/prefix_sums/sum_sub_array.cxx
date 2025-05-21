@@ -87,7 +87,7 @@ int maxAscendingSum(const std::vector<int>& nums) {
     return max_sum;
 }
 
-export namespace SumSubArray
+export namespace ssa
 {
   void test_sum_sub_array()
   {
